@@ -31,5 +31,7 @@ jobs:
       - name: Lint
         run: pnpm lint
 
-      - name: TypeScript check
-        run: pnpm tsc --noEmit
+      - name: Expo Type Check
+        run: pnpm expo doctor
+
+
